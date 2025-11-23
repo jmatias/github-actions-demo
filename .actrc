@@ -1,2 +1,4 @@
--P bts-iai-runner-linux=ghcr.io/catthehacker/ubuntu:act-24.04
+--platform bts-iai-runner-linux=ghcr.io/catthehacker/ubuntu:runner-24.04
 --container-architecture linux/amd64
+--secret-file .env
+--var-file .env.variables
